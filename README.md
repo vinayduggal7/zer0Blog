@@ -55,7 +55,7 @@ MySQL-python（还有一个数据库驱动，我使用的是MySQL，你也可以
             'PASSWORD': 'root',
             'HOST': '127.0.0.1',
             'PORT': '3306'
-        }
+        }                   #basically, it tells the django server the database details so that django connect with database
     }
 
 若使用MySQL，则需要修改 `USER` ,`PASSWORD`,`HOST` 和你想使用的数据库名 `NAME`。若使用其他数据库，还需要修改 `ENGINE'。熟悉 Django 的都知道怎么做，就不细说了
